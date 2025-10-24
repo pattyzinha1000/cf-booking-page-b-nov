@@ -280,7 +280,9 @@ const Index = () => {
               </div>
               
               <p className="text-base sm:text-xl md:text-2xl font-bold text-primary">9 available spots this month...</p>
-              <p className="text-base sm:text-xl md:text-2xl">Autumn searched for 18 months before finding us.</p>
+              <p className="text-base sm:text-xl md:text-2xl">Your doctors look at test results.</p>
+              <p className="text-base sm:text-xl md:text-2xl">We look at how your body actually moves. That's why we find what they miss.</p>
+              <p className="text-base sm:text-xl md:text-2xl">It's why after just one sit down with us, most peopla say: "Why didn't my doctor tell me this?"</p>
               <p className="text-base sm:text-xl md:text-2xl font-bold">You found us today.</p>
               <p className="text-lg sm:text-2xl md:text-3xl font-bold text-primary">Don't waste it.</p>
               
