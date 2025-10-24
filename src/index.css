@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Clean BodyFix Brand Colors */
+    --background: 0 0% 100%; /* Pure white */
+    --foreground: 0 0% 20%; /* Dark gray text */
+
+    --card: 0 0% 100%; /* Pure white cards */
+    --card-foreground: 0 0% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+
+    --primary: 253 54% 52%; /* Purple CTA color #7244da */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 266 71% 97%; /* Light purple #f7f2fe */
+    --secondary-foreground: 253 54% 52%;
+
+    --muted: 266 71% 97%; /* Light purple background */
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 253 54% 52%; /* Purple accent */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 95%;
+    --ring: 253 54% 52%;
+
+    /* Warning box colors - purple theme */
+    --warning-bg: 266 71% 97%; /* Light purple background */
+    --warning-border: 253 54% 70%; /* Purple border */
+    --warning-text: 253 54% 40%; /* Dark purple text */
+
+    /* Additional colors for sections */
+    --success-bg: 266 71% 97%;
+    --success-border: 253 54% 70%;
+    --success-text: 253 54% 40%;
+
+    --info-bg: 266 71% 97%;
+    --info-border: 253 54% 70%;
+    --info-text: 253 54% 40%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Keep same clean white theme */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+    --primary: 253 54% 52%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 266 71% 97%;
+    --secondary-foreground: 253 54% 52%;
+    --muted: 266 71% 97%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 253 54% 52%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 90%;
+    --input: 0 0% 95%;
+    --ring: 253 54% 52%;
+    --warning-bg: 266 71% 97%;
+    --warning-border: 253 54% 70%;
+    --warning-text: 253 54% 40%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 0 0% 20%;
+    --sidebar-primary: 253 54% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 266 71% 97%;
+    --sidebar-accent-foreground: 253 54% 52%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-ring: 253 54% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
