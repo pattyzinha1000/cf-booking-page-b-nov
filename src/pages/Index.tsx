@@ -218,10 +218,10 @@ const Index = () => {
               <div className="bg-white p-4 sm:p-6 rounded-lg mt-6">
                 <p className="text-base sm:text-xl md:text-2xl font-bold text-left mt-4" style={{
                 color: '#000000'
-              }}>This is 60 minutes with someone who sees what others can't. Who finds the pattern keeping you stuck.</p>
+              }}>This is 90 minutes with someone who sees what others can't. Who finds the pattern keeping you stuck.</p>
                 <p className="text-base sm:text-xl md:text-2xl font-bold text-left mt-4" style={{
                 color: '#000000'
-              }}>They'll know in 60 minutes what others miss for years.</p>
+              }}>They'll know in 90 minutes what others miss for years.</p>
               </div>
             </div>
           </Card>
