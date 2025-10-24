@@ -93,7 +93,7 @@ const Index = () => {
               
               <p className="text-base sm:text-xl md:text-2xl">Maybe it was the wasted money on treatments that failed.</p>
               
-              <p className="text-base sm:text-xl md:text-2xl font-bold text-primary">Maybe it was feeling invisible in your own family.</p>
+              <p className="text-base sm:text-xl text-inherit font-normal md:text-2xl">Maybe it was feeling invisible in your own family.</p>
               
               <p className="text-base sm:text-xl md:text-2xl">Maybe it was doctors saying &quot;everything's normal&quot; when you know it's not.</p>
               
