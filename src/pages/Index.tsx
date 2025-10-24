@@ -295,9 +295,7 @@ const Index = () => {
               <Button className="text-lg sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto" style={{
               backgroundColor: '#08ff00',
               color: '#000000'
-            }}>
-                CLAIM MY $97 CONSULTATION SPOT
-              </Button>
+            }}>CLAIM MY $27 CONSULTATION SPOT</Button>
               
               <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-2 text-foreground">Limited Spots Filling Fast</p>
               <p className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-4">Special Event Pricing Ends Soon</p>
