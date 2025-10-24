@@ -361,6 +361,42 @@ const Index = () => {
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
               </div>
               {/* Calendly inline widget end */}
+              
+              {/* Q&A Section */}
+              <div className="bg-white p-4 sm:p-6 rounded-lg mt-8">
+                <h3 className="text-lg sm:text-2xl md:text-3xl font-bold text-center mb-6 text-primary">
+                  Quick Questions:
+                </h3>
+                
+                <div className="space-y-4 text-left">
+                  <div>
+                    <p className="text-base sm:text-xl font-bold text-foreground mb-2">
+                      Is this online or in person?
+                    </p>
+                    <p className="text-base sm:text-lg text-muted-foreground">
+                      Online video call–done from the comfort of your home.
+                    </p>
+                  </div>
+                  
+                  <div>
+                    <p className="text-base sm:text-xl font-bold text-foreground mb-2">
+                      What if I need to reschedule?
+                    </p>
+                    <p className="text-base sm:text-lg text-muted-foreground">
+                      Just give us 24 hours notice. No problem.
+                    </p>
+                  </div>
+                  
+                  <div>
+                    <p className="text-base sm:text-xl font-bold text-foreground mb-2">
+                      What happens after the consultation?
+                    </p>
+                    <p className="text-base sm:text-lg text-muted-foreground">
+                      You'll receive a personalized summary, including a chance to join our VIP community.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </Card>
         </div>
