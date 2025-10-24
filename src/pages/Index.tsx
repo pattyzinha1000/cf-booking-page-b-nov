@@ -42,6 +42,13 @@ const Index = () => {
           <p className="text-base sm:text-xl md:text-2xl mb-6 text-foreground px-6 py-4 rounded-lg">Reserve Your 45-Minute Session With The Fitness Doctor's Expert Team</p>
         </div>
 
+        {/* Watch First Text */}
+        <div className="text-center mb-4">
+          <p className="text-xl sm:text-2xl md:text-3xl font-bold text-red-600">
+            Watch This First (2 Minutes):
+          </p>
+        </div>
+
         {/* Video Section */}
         <VideoEmbed embedCode={videoEmbedCode} />
 
