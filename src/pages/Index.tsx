@@ -276,12 +276,10 @@ const Index = () => {
                 <p className="text-lg sm:text-2xl md:text-3xl font-bold mb-2">
                   But as a Full Body Fix registrant who takes action today?
                 </p>
-                <p className="text-3xl sm:text-4xl md:text-5xl font-bold">
-                  Just $97
-                </p>
+                <p className="text-3xl sm:text-4xl md:text-5xl font-bold">Just $27</p>
               </div>
               
-              <p className="text-base sm:text-xl md:text-2xl font-bold text-primary">5 spots available today.</p>
+              <p className="text-base sm:text-xl md:text-2xl font-bold text-primary">9 available spots this month...</p>
               <p className="text-base sm:text-xl md:text-2xl">Autumn searched for 18 months before finding us.</p>
               <p className="text-base sm:text-xl md:text-2xl font-bold">You found us today.</p>
               <p className="text-lg sm:text-2xl md:text-3xl font-bold text-primary">Don't waste it.</p>
