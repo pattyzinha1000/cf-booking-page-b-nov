@@ -89,15 +89,15 @@ const Index = () => {
             <div className="space-y-4 sm:space-y-6 text-left">
               <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8" style={{
               color: '#000000'
-            }}>Why should you book a private consultation?</p>
+            }}>If you just watched that video, you're here for a reason.</p>
               
-              <p className="text-base sm:text-xl md:text-2xl">Because there's one critical factor that makes all the difference between progress and frustration:</p>
+              <p className="text-base sm:text-xl md:text-2xl">Maybe it was the wasted money on treatments that failed.</p>
               
-              <p className="text-base sm:text-xl md:text-2xl font-bold text-primary">Uncovering the hidden compensation that's driving everything else.</p>
+              <p className="text-base sm:text-xl md:text-2xl font-bold text-primary">Maybe it was feeling invisible in your own family.</p>
               
-              <p className="text-base sm:text-xl md:text-2xl">Autumn didn't discover hers until 18 months too late.</p>
+              <p className="text-base sm:text-xl md:text-2xl">Maybe it was doctors saying &quot;everything's normal&quot; when you know it's not.</p>
               
-              <p className="text-base sm:text-xl md:text-2xl font-bold">Here's what I mean…</p>
+              <p className="text-base sm:text-xl md:text-2xl font-bold">You clicked because something finally made sense.</p>
             </div>
             
             <div className="bg-white p-4 sm:p-8 rounded-lg mb-6 sm:mb-8 mt-8 border-l-4 border-primary">
