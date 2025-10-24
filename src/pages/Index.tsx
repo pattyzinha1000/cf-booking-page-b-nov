@@ -3,7 +3,7 @@ import { WarningBox } from "@/components/WarningBox";
 import { VideoEmbed } from "@/components/VideoEmbed";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Check } from "lucide-react";
 import laptopImg from "@/assets/laptop-img.png";
 import thanksgivingScene from "@/assets/thanksgiving-scene.webp";
 const Index = () => {
@@ -279,6 +279,45 @@ const Index = () => {
                   <div className="bg-white px-3 sm:px-6 py-2 sm:py-4 rounded-lg shadow-md min-w-[60px] sm:min-w-[80px]">51</div>
                   <div className="text-xs sm:text-sm mt-1 sm:mt-2 text-muted-foreground">SECS</div>
                 </div>
+              </div>
+            </div>
+          </Card>
+
+          {/* Benefits List */}
+          <Card className="p-4 sm:p-8 bg-primary/10 border-l-4 sm:border-l-8 border-primary shadow-lg">
+            <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-primary">
+              Here's What Happens In Your 90-Minute Consultation:
+            </h2>
+            
+            <div className="space-y-4 text-left max-w-3xl mx-auto">
+              <div className="flex items-start gap-3">
+                <Check className="w-6 h-6 sm:w-8 sm:h-8 text-primary flex-shrink-0 mt-1" />
+                <p className="text-base sm:text-xl md:text-2xl">Comprehensive movement assessment via video</p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <Check className="w-6 h-6 sm:w-8 sm:h-8 text-primary flex-shrink-0 mt-1" />
+                <p className="text-base sm:text-xl md:text-2xl">Identification of YOUR specific misalignment pattern</p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <Check className="w-6 h-6 sm:w-8 sm:h-8 text-primary flex-shrink-0 mt-1" />
+                <p className="text-base sm:text-xl md:text-2xl">Clear Explanation of what your doctors missed</p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <Check className="w-6 h-6 sm:w-8 sm:h-8 text-primary flex-shrink-0 mt-1" />
+                <p className="text-base sm:text-xl md:text-2xl">Clear understanding of what's possible for your body</p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <Check className="w-6 h-6 sm:w-8 sm:h-8 text-primary flex-shrink-0 mt-1" />
+                <p className="text-base sm:text-xl md:text-2xl">Direct access to world-class specialists</p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <Check className="w-6 h-6 sm:w-8 sm:h-8 text-primary flex-shrink-0 mt-1" />
+                <p className="text-base sm:text-xl md:text-2xl">We'll show you if our system is right for you</p>
               </div>
             </div>
           </Card>
