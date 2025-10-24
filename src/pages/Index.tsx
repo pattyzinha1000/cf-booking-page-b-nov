@@ -39,9 +39,7 @@ const Index = () => {
         <div className="text-center mb-8 sm:mb-12">
           <h1 className="text-xl sm:text-3xl md:text-5xl font-bold mb-4 text-foreground leading-tight px-2">Your Private Consultation Awaits...</h1>
           
-          <p className="text-base sm:text-xl md:text-2xl mb-6 text-foreground px-6 py-4 rounded-lg" style={{
-          backgroundColor: '#FCF7DC'
-        }}>Reserve Your 45-Minute Session With The Fitness Doctor's Expert Team</p>
+          <p className="text-base sm:text-xl md:text-2xl mb-6 text-foreground px-6 py-4 rounded-lg">Reserve Your 45-Minute Session With The Fitness Doctor's Expert Team</p>
         </div>
 
         {/* Video Section */}
