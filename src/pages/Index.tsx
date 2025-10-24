@@ -207,9 +207,7 @@ const Index = () => {
 
           {/* Registration Message */}
           <Card className="p-4 sm:p-8 bg-primary/10 border-l-4 sm:border-l-8 border-primary shadow-lg">
-            <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-primary">
-              You Just Registered for the Full Body Fix
-            </h2>
+            
             
             <div className="space-y-4 sm:space-y-6 text-left">
               <p className="text-base sm:text-xl md:text-2xl font-bold">You're doing this before it's too late. Before you become an Autumn story</p>
