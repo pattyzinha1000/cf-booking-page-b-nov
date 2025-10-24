@@ -102,6 +102,9 @@ const Index = () => {
             </div>
             
             <div className="bg-white p-4 sm:p-8 rounded-lg mb-6 sm:mb-8 mt-8 border-l-4 border-primary">
+              <h3 className="text-lg sm:text-2xl md:text-3xl font-bold text-left mb-4 text-foreground">
+                This Is How It Starts For Most People...
+              </h3>
               <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-left mb-4 text-foreground">
                 Autumn Couldn't Carry Her Grandson to the Thanksgiving Table
               </h2>
