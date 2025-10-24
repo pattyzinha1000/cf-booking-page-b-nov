@@ -57,12 +57,10 @@ const Index = () => {
           <Button className="text-lg sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto" style={{
           backgroundColor: '#08ff00',
           color: '#000000'
-        }}>
-            BOOK YOUR CONSULTATION NOW
-          </Button>
+        }}>RESERVE MY $27 CONSULTATION NOW</Button>
           
-          <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-2 text-foreground">Only 5 Total Available Today</p>
-          <p className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-4">Special Event Pricing Ends Soon</p>
+          <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-2 text-foreground">Only 5 Consultation Slots Available This Month</p>
+          <p className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-4">These typically fill within 24 hours.</p>
           
           {/* Countdown Timer */}
           <div className="flex justify-center items-center gap-2 sm:gap-4 text-xl sm:text-3xl md:text-4xl font-bold text-foreground">
