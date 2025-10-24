@@ -218,19 +218,17 @@ const Index = () => {
               <div className="bg-white p-4 sm:p-6 rounded-lg mt-6">
                 <p className="text-base sm:text-xl md:text-2xl font-bold text-left mt-4" style={{
                 color: '#000000'
-              }}>This is 90 minutes with someone who sees what others can't. Who finds the pattern keeping you stuck.</p>
+              }}>This is 60 minutes with someone who sees what others can't. Who finds the pattern keeping you stuck.</p>
                 <p className="text-base sm:text-xl md:text-2xl font-bold text-left mt-4" style={{
                 color: '#000000'
-              }}>They'll know in 90 minutes what others miss for years.</p>
+              }}>They'll know in 60 minutes what others miss for years.</p>
               </div>
             </div>
           </Card>
 
           {/* Benefits List */}
           <Card className="p-4 sm:p-8 bg-primary/10 border-l-4 sm:border-l-8 border-primary shadow-lg">
-            <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-primary">
-              Here's What Happens In Your 90-Minute Consultation:
-            </h2>
+            <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-primary">Here's What Happens In Your 60-Minute Consultation:</h2>
             
             <div className="space-y-4 text-left max-w-3xl mx-auto">
               <div className="flex items-start gap-3">
