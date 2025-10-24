@@ -54,16 +54,8 @@ const Index = () => {
 
         {/* CTA Section */}
         <div className="text-center my-8 sm:my-12 bg-muted p-4 sm:p-8 rounded-xl max-w-4xl mx-auto shadow-lg">
-          <Button className="text-lg sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto" style={{
-          backgroundColor: '#08ff00',
-          color: '#000000'
-        }}>RESERVE MY $27 CONSULTATION NOW</Button>
-          
-          <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-2 text-foreground">Only 5 Consultation Slots Available This Month</p>
-          <p className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-4">These typically fill within 24 hours.</p>
-          
           {/* Countdown Timer */}
-          <div className="flex justify-center items-center gap-2 sm:gap-4 text-xl sm:text-3xl md:text-4xl font-bold text-foreground">
+          <div className="flex justify-center items-center gap-2 sm:gap-4 text-xl sm:text-3xl md:text-4xl font-bold text-foreground mb-6">
             <div className="text-center">
               <div className="bg-white px-3 sm:px-6 py-2 sm:py-4 rounded-lg shadow-md min-w-[60px] sm:min-w-[80px]">00</div>
               <div className="text-xs sm:text-sm mt-1 sm:mt-2 text-muted-foreground">HOURS</div>
@@ -79,6 +71,14 @@ const Index = () => {
               <div className="text-xs sm:text-sm mt-1 sm:mt-2 text-muted-foreground">SECS</div>
             </div>
           </div>
+          
+          <Button className="text-lg sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto" style={{
+          backgroundColor: '#08ff00',
+          color: '#000000'
+        }}>RESERVE MY $27 CONSULTATION NOW</Button>
+          
+          <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-2 text-foreground">Only 5 Consultation Slots Available This Month</p>
+          <p className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-4">These typically fill within 24 hours.</p>
         </div>
 
         {/* Main Content Sections */}
