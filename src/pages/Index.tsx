@@ -98,7 +98,7 @@ const Index = () => {
               <p className="text-base sm:text-xl md:text-2xl">Maybe it was doctors saying &quot;everything's normal&quot; when you know it's not.</p>
               
               <p className="text-base sm:text-xl md:text-2xl font-bold">You clicked because something finally made sense.</p>
-              <p className="text-base sm:text-xl md:text-2xl font-bold">You clicked because something finally made sense.</p>
+              <p className="text-base sm:text-xl md:text-2xl font-bold">Now let's fix it.</p>
             </div>
             
             <div className="bg-white p-4 sm:p-8 rounded-lg mb-6 sm:mb-8 mt-8 border-l-4 border-primary">
