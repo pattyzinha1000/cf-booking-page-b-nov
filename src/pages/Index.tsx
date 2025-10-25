@@ -32,14 +32,14 @@ const Index = () => {
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
   `;
-  return <div className="min-h-screen bg-background font-sans">
+  return <div className="min-h-screen bg-background font-sans overflow-x-hidden">
       <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12 max-w-5xl">
         
         {/* Hero Header */}
         <div className="text-center">
-          <h1 className="text-xl sm:text-3xl md:text-5xl font-bold mb-4 text-foreground leading-tight px-2">Your Private Consultation Awaits...</h1>
+          <h1 className="text-xl sm:text-3xl md:text-5xl font-bold mb-4 text-foreground leading-tight px-4 sm:px-2">Your Private Consultation Awaits...</h1>
           
-          <p className="text-base sm:text-xl md:text-2xl mb-4 text-foreground px-6 py-4 rounded-lg">Reserve Your 60-Minute Session With The Fitness Doctor's Expert Team</p>
+          <p className="text-base sm:text-xl md:text-2xl mb-4 text-foreground px-4 sm:px-6 py-4 rounded-lg">Reserve Your 60-Minute Session With The Fitness Doctor's Expert Team</p>
         </div>
 
         {/* Watch First Text */}
@@ -72,7 +72,7 @@ const Index = () => {
             </div>
           </div>
           
-          <Button className="bg-[#08ff00] text-black hover:bg-[#06dd00] sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto text-sm">RESERVE MY $27 CONSULTATION NOW</Button>
+          <Button className="bg-[#08ff00] text-black hover:bg-[#06dd00] text-base sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto">RESERVE MY $27 CONSULTATION NOW</Button>
           
           <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-2 text-foreground">Only 5 Consultation Slots Available This Month</p>
           <p className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-4">These typically fill within 24 hours.</p>
@@ -271,7 +271,7 @@ const Index = () => {
               </div>
               
               {/* Green CTA Button */}
-              <Button className="bg-[#08ff00] text-black hover:bg-[#06dd00] sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto text-sm">CLAIM MY $27 CONSULTATION SPOT</Button>
+              <Button className="bg-[#08ff00] text-black hover:bg-[#06dd00] text-base sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto">CLAIM MY $27 CONSULTATION SPOT</Button>
               
               <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-2 text-foreground">Limited Spots Filling Fast</p>
               <p className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-4">Special Event Pricing Ends Soon</p>
@@ -326,7 +326,7 @@ const Index = () => {
               
               {/* Calendly inline widget begin */}
               <div className="-mt-4 sm:-mt-6">
-                <div className="calendly-inline-widget min-w-[320px] h-[1500px]" data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version" />
+                <div className="calendly-inline-widget w-full min-w-[280px] h-[1200px] sm:h-[1400px] md:h-[1500px]" data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version" />
               </div>
               {/* Calendly inline widget end */}
               

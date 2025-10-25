@@ -113,4 +113,20 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Responsive utilities */
+  img {
+    @apply max-w-full h-auto;
+  }
+  
+  /* Prevent horizontal scroll */
+  html {
+    overflow-x: hidden;
+  }
+  
+  /* Better word breaking for long text */
+  h1, h2, h3, h4, h5, h6, p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
 }
