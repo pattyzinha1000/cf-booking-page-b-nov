@@ -39,11 +39,11 @@ const Index = () => {
         <div className="text-center mb-8 sm:mb-12">
           <h1 className="text-xl sm:text-3xl md:text-5xl font-bold mb-4 text-foreground leading-tight px-2">Your Private Consultation Awaits...</h1>
           
-          <p className="text-base sm:text-xl md:text-2xl mb-1 text-foreground px-6 py-4 rounded-lg">Reserve Your 60-Minute Session With The Fitness Doctor's Expert Team</p>
+          <p className="text-base sm:text-xl md:text-2xl mb-4 text-foreground px-6 py-4 rounded-lg">Reserve Your 60-Minute Session With The Fitness Doctor's Expert Team</p>
         </div>
 
         {/* Watch First Text */}
-        <div className="text-center mb-1">
+        <div className="text-center mb-4">
           <p className="text-xl sm:text-2xl md:text-3xl font-bold text-red-600">
             Watch This First (2 Minutes):
           </p>
