@@ -36,7 +36,7 @@ const Index = () => {
       <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12 max-w-5xl">
         
         {/* Hero Header */}
-        <div className="text-center mb-8 sm:mb-12">
+        <div className="text-center">
           <h1 className="text-xl sm:text-3xl md:text-5xl font-bold mb-4 text-foreground leading-tight px-2">Your Private Consultation Awaits...</h1>
           
           <p className="text-base sm:text-xl md:text-2xl mb-4 text-foreground px-6 py-4 rounded-lg">Reserve Your 60-Minute Session With The Fitness Doctor's Expert Team</p>
